@@ -1,0 +1,11 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# AutoCAD temporary lock and backup files
+*.dwl
+*.dwl2
+*.bak
+
+# Screenshot capture error sidecars
+*.error.txt
