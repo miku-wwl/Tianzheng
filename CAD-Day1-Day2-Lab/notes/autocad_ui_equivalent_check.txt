@@ -1,0 +1,27 @@
+AutoCAD UI-equivalent verification
+===================================
+Collected: 2026-09-15T21:33:46.498915+12:00
+Version: 26.0s (LMS Tech)
+Executable: D:\360\autocad\AutoCAD 2027\acad.exe
+
+This report uses AutoCAD COM and SendCommand; it is not native mouse-click evidence.
+
+[line] C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\output\day2_line_based.dwg
+Object types: {'AcDbArc': 1, 'AcDbCircle': 1, 'AcDbLine': 15, 'AcDbMText': 1, 'AcDbRotatedDimension': 2, 'AcDbText': 2}
+A-WALL properties: [{'object_name': 'AcDbLine', 'layer': 'A-WALL', 'handle': '35', 'color': 256, 'linetype': 'ByLayer', 'lineweight': -1}, {'object_name': 'AcDbLine', 'layer': 'A-WALL', 'handle': '36', 'color': 256, 'linetype': 'ByLayer', 'lineweight': -1}, {'object_name': 'AcDbLine', 'layer': 'A-WALL', 'handle': '37', 'color': 256, 'linetype': 'ByLayer', 'lineweight': -1}, {'object_name': 'AcDbLine', 'layer': 'A-WALL', 'handle': '38', 'color': 256, 'linetype': 'ByLayer', 'lineweight': -1}]
+Spaces: {'active_space': 1, 'tilemode': 1, 'active_layout': 'Model', 'model_space_count': 22, 'paper_space_count': 0, 'layouts': [{'name': 'Layout1', 'tab_order': 1}, {'name': 'Model', 'tab_order': 0}]}
+Layers: [{'name': '0', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-DIMS', 'color': 1, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-DOOR', 'color': 2, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-GRID', 'color': 6, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-TEXT', 'color': 3, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-WALL', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-WINDOW', 'color': 4, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'Defpoints', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}]
+
+[polyline] C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\output\day2_polyline_based.dwg
+Object types: {'AcDbArc': 1, 'AcDbCircle': 1, 'AcDbLine': 11, 'AcDbMText': 1, 'AcDbPolyline': 1, 'AcDbRotatedDimension': 2, 'AcDbText': 2}
+A-WALL properties: [{'object_name': 'AcDbPolyline', 'layer': 'A-WALL', 'handle': '35', 'color': 256, 'linetype': 'ByLayer', 'lineweight': -1}]
+Spaces: {'active_space': 1, 'tilemode': 1, 'active_layout': 'Model', 'model_space_count': 19, 'paper_space_count': 0, 'layouts': [{'name': 'Layout1', 'tab_order': 1}, {'name': 'Model', 'tab_order': 0}]}
+Layers: [{'name': '0', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-DIMS', 'color': 1, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-DOOR', 'color': 2, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-GRID', 'color': 6, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-TEXT', 'color': 3, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-WALL', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'A-WINDOW', 'color': 4, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}, {'name': 'Defpoints', 'color': 7, 'linetype': 'Continuous', 'layer_on': True, 'freeze': False, 'lock': False}]
+
+UI command attempts:
+{"document": "line", "properties": {"command": "_.PROPERTIES", "sent": true, "screenshot": true, "error": null}, "layers": {"command": "_.LAYER", "sent": true, "screenshot": true, "error": null}, "paper_space": {"command": "_.TILEMODE 0", "sent": true, "screenshot": true, "error": null, "state_after_command": {"active_space": 0, "tilemode": 0, "active_layout": "Layout1", "model_space_count": 22, "paper_space_count": 1, "layouts": [{"name": "Layout1", "tab_order": 1}, {"name": "Model", "tab_order": 0}]}}}
+{"document": "polyline", "properties": {"command": "_.PROPERTIES", "sent": true, "screenshot": false, "error": null}, "layers": {"command": "_.LAYER", "sent": true, "screenshot": false, "error": null}, "paper_space": {"command": "_.TILEMODE 0", "sent": true, "screenshot": true, "error": null, "state_after_command": {"active_space": 0, "tilemode": 0, "active_layout": "Layout1", "model_space_count": 19, "paper_space_count": 1, "layouts": [{"name": "Layout1", "tab_order": 1}, {"name": "Model", "tab_order": 0}]}}}
+
+Limitations:
+- Native Windows click/element automation was unavailable; these are AutoCAD COM and command-interface checks, not mouse-click evidence.
+- The Properties command can open the palette, but selecting a specific object through the native palette was not simulated as a click.

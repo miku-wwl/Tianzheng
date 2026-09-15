@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-09-15T23:31:42.122216+12:00",
+  "created_counts": {
+    "AcDbCircle": 1,
+    "AcDbLine": 4,
+    "AcDbPolyline": 1,
+    "AcDbText": 1
+  },
+  "after_modify_counts": {
+    "AcDbCircle": 1,
+    "AcDbLine": 4,
+    "AcDbPolyline": 1,
+    "AcDbText": 1
+  },
+  "after_delete_counts": {
+    "AcDbLine": 4,
+    "AcDbPolyline": 1,
+    "AcDbText": 1
+  },
+  "reopened_counts": {
+    "AcDbLine": 4,
+    "AcDbPolyline": 1,
+    "AcDbText": 1
+  },
+  "line_properties": {
+    "expected_type": "AcDbLine",
+    "selection_method": "AutoLISP sssetfirst implied selection, not physical mouse input",
+    "selected": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84"
+      }
+    ],
+    "screenshot": "02_line_properties.png",
+    "saved": true
+  },
+  "polyline_properties": {
+    "expected_type": "AcDbPolyline",
+    "selection_method": "AutoLISP sssetfirst implied selection, not physical mouse input",
+    "selected": [
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A"
+      }
+    ],
+    "screenshot": "03_polyline_properties.png",
+    "saved": true
+  },
+  "screenshots": {
+    "01_created_entities.png": true,
+    "02_line_properties.png": true,
+    "03_polyline_properties.png": true,
+    "05_before_modify.png": true,
+    "06_after_modify.png": true,
+    "07_after_delete.png": true,
+    "08_reopened_drawing.png": true
+  },
+  "note": "day3_after_modify_before_delete.dwg is a non-destructive copy of AutoCAD's generated .bak file, used only to capture the verified post-modification/pre-deletion state."
+}

@@ -1,0 +1,43 @@
+AutoCAD resource and hands-on execution report
+===============================================
+Collected: 2026-09-15T21:05:45.702383+12:00
+Version: 26.0s (LMS Tech)
+Executable: D:\360\autocad\AutoCAD 2027\acad.exe
+COM: AutoCAD.Application.26
+Visible: True
+
+Installed Autodesk entries:
+AutoCAD 2027 - English | 26.0.60.0 | D:\360\autocad\AutoCAD 2027\
+AutoCAD Open in Desktop | 1.0.30.0 |
+Autodesk Access | 2.23.0.517 | D:\360\autocad
+Autodesk App Manager | 3.7.0 | D:\360\autocad\
+Autodesk AutoCAD 2027 - English | 26.0.118.0 | D:\360\autocad
+Autodesk AutoCAD 2027.1 Update | 26.0.118.0 | D:\360\autocad
+Autodesk AutoCAD MCP Server | 26.0.460.2523 |
+Autodesk CER | 7.2.5.982 |
+Autodesk Genuine Service | 7.6.1.4 | C:\Program Files\Autodesk\Genuine Service\
+Autodesk Interoperability Engine Manager | 1.4.0.10 | C:\Program Files\Common Files\Autodesk Shared\Interoperability Engine Manager\
+Autodesk 精选应用 | 3.7.0 | D:\360\autocad\
+
+Experiment A (line-based) AutoCAD COM inventory:
+Document: C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\output\day2_line_based.dxf
+Units header: None
+Types: {'AcDbArc': 1, 'AcDbCircle': 1, 'AcDbLine': 15, 'AcDbMText': 1, 'AcDbRotatedDimension': 2, 'AcDbText': 2}
+Layers: {'A-DIMS': 2, 'A-DOOR': 4, 'A-GRID': 2, 'A-TEXT': 2, 'A-WALL': 4, 'A-WINDOW': 8}
+A-WALL objects: ['Object 001 | Type: AcDbLine | Layer: A-WALL', 'Object 002 | Type: AcDbLine | Layer: A-WALL', 'Object 003 | Type: AcDbLine | Layer: A-WALL', 'Object 004 | Type: AcDbLine | Layer: A-WALL']
+
+Experiment B (polyline-based) AutoCAD COM inventory:
+Document: C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\output\day2_polyline_based.dxf
+Units header: None
+Types: {'AcDbArc': 1, 'AcDbCircle': 1, 'AcDbLine': 11, 'AcDbMText': 1, 'AcDbPolyline': 1, 'AcDbRotatedDimension': 2, 'AcDbText': 2}
+Layers: {'A-DIMS': 2, 'A-DOOR': 4, 'A-GRID': 2, 'A-TEXT': 2, 'A-WALL': 1, 'A-WINDOW': 8}
+A-WALL objects: ['Object 001 | Type: AcDbPolyline | Layer: A-WALL']
+
+DWG A: {'path': 'C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg', 'exists': True, 'error': None}
+DWG B: {'path': 'C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dwg', 'exists': True, 'error': None}
+DWG reopen: [{'path': 'C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg', 'opened': True, 'entity_count': 22, 'error': None}, {'path': 'C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dwg', 'opened': True, 'entity_count': 19, 'error': None}]
+AutoCAD screenshots: line=True, polyline=True
+
+Limitations:
+- Native GUI Properties palette, Layers palette, and Paper Space tab were not clicked because native window-control APIs were unavailable in this session.
+- Entity types and layers were verified through AutoCAD COM ModelSpace and Layer collections.

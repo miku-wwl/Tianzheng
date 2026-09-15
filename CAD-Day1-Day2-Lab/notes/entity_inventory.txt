@@ -1,0 +1,71 @@
+CAD Day 1 + Day 2 entity inventory
+====================================
+Units: millimetres (DXF header $INSUNITS=4)
+
+day2_line_based.dxf
+-------------------
+ARC          x 1
+CIRCLE       x 1
+DIMENSION    x 2
+LINE         x 15
+MTEXT        x 1
+TEXT         x 2
+
+Object 001 | Type: LINE         | Layer: A-WALL
+Object 002 | Type: LINE         | Layer: A-WALL
+Object 003 | Type: LINE         | Layer: A-WALL
+Object 004 | Type: LINE         | Layer: A-WALL
+Object 005 | Type: LINE         | Layer: A-DOOR
+Object 006 | Type: ARC          | Layer: A-DOOR
+Object 007 | Type: LINE         | Layer: A-DOOR
+Object 008 | Type: LINE         | Layer: A-DOOR
+Object 009 | Type: LINE         | Layer: A-WINDOW
+Object 010 | Type: LINE         | Layer: A-WINDOW
+Object 011 | Type: LINE         | Layer: A-WINDOW
+Object 012 | Type: LINE         | Layer: A-WINDOW
+Object 013 | Type: LINE         | Layer: A-WINDOW
+Object 014 | Type: LINE         | Layer: A-WINDOW
+Object 015 | Type: LINE         | Layer: A-WINDOW
+Object 016 | Type: LINE         | Layer: A-WINDOW
+Object 017 | Type: TEXT         | Layer: A-TEXT | Content: OFFICE
+Object 018 | Type: MTEXT        | Layer: A-TEXT | Content: 6000 x 4000 mm / Wall concept: 200 mm / Boundary model: 4 independent LINE entities
+Object 019 | Type: CIRCLE       | Layer: A-GRID
+Object 020 | Type: TEXT         | Layer: A-GRID | Content: G1
+Object 021 | Type: DIMENSION    | Layer: A-DIMS
+Object 022 | Type: DIMENSION    | Layer: A-DIMS
+
+day2_polyline_based.dxf
+-----------------------
+ARC          x 1
+CIRCLE       x 1
+DIMENSION    x 2
+LINE         x 11
+LWPOLYLINE   x 1
+MTEXT        x 1
+TEXT         x 2
+
+Object 001 | Type: LWPOLYLINE   | Layer: A-WALL
+Object 002 | Type: LINE         | Layer: A-DOOR
+Object 003 | Type: ARC          | Layer: A-DOOR
+Object 004 | Type: LINE         | Layer: A-DOOR
+Object 005 | Type: LINE         | Layer: A-DOOR
+Object 006 | Type: LINE         | Layer: A-WINDOW
+Object 007 | Type: LINE         | Layer: A-WINDOW
+Object 008 | Type: LINE         | Layer: A-WINDOW
+Object 009 | Type: LINE         | Layer: A-WINDOW
+Object 010 | Type: LINE         | Layer: A-WINDOW
+Object 011 | Type: LINE         | Layer: A-WINDOW
+Object 012 | Type: LINE         | Layer: A-WINDOW
+Object 013 | Type: LINE         | Layer: A-WINDOW
+Object 014 | Type: TEXT         | Layer: A-TEXT | Content: OFFICE
+Object 015 | Type: MTEXT        | Layer: A-TEXT | Content: 6000 x 4000 mm / Wall concept: 200 mm / Boundary model: 1 closed LWPOLYLINE entity
+Object 016 | Type: CIRCLE       | Layer: A-GRID
+Object 017 | Type: TEXT         | Layer: A-GRID | Content: G1
+Object 018 | Type: DIMENSION    | Layer: A-DIMS
+Object 019 | Type: DIMENSION    | Layer: A-DIMS
+
+Interpretation
+--------------
+Experiment A has four independent LINE entities for the main room boundary.
+Experiment B has one closed LWPOLYLINE entity for the main room boundary.
+The files can therefore look almost identical while their entity data models differ.

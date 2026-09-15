@@ -1,0 +1,512 @@
+{
+  "collected_at": "2026-09-15T23:25:51.981043+12:00",
+  "autocad_version": "26.0s (LMS Tech)",
+  "autocad_executable": "D:\\360\\autocad\\AutoCAD 2027\\acad.exe",
+  "lisp_loaded": true,
+  "created_dwg": {
+    "path": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_created.dwg",
+    "exists": true
+  },
+  "modified_dwg": {
+    "path": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_modified.dwg",
+    "exists": true
+  },
+  "created": {
+    "document": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_created.dwg",
+    "entity_count": 7,
+    "types": {
+      "AcDbCircle": 1,
+      "AcDbLine": 4,
+      "AcDbPolyline": 1,
+      "AcDbText": 1
+    },
+    "layers": {
+      "DAY3-MARKER": 1,
+      "DAY3-POLY": 1,
+      "DAY3-TEXT": 1,
+      "DAY3-WALL": 4
+    },
+    "entities": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "85",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          6000.0,
+          0.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "86",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "87",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbCircle",
+        "layer": "DAY3-MARKER",
+        "handle": "88",
+        "color": 256,
+        "linetype": "ByLayer",
+        "radius": 450.0
+      },
+      {
+        "type": "AcDbText",
+        "layer": "DAY3-TEXT",
+        "handle": "89",
+        "color": 256,
+        "linetype": "ByLayer",
+        "textstring": "DAY 3",
+        "insertionpoint": [
+          2300.0,
+          2850.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "closed": true
+      }
+    ]
+  },
+  "line_properties": {
+    "expected_type": "AcDbLine",
+    "selection_method": "AutoLISP sssetfirst implied selection, not physical mouse input",
+    "selected": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84"
+      }
+    ],
+    "screenshot": "02_line_properties.png",
+    "saved": false
+  },
+  "polyline_properties": {
+    "expected_type": "AcDbPolyline",
+    "selection_method": "AutoLISP sssetfirst implied selection, not physical mouse input",
+    "selected": [
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A"
+      }
+    ],
+    "screenshot": "03_polyline_properties.png",
+    "saved": false
+  },
+  "modified": {
+    "document": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_modified.dwg",
+    "entity_count": 7,
+    "types": {
+      "AcDbCircle": 1,
+      "AcDbLine": 4,
+      "AcDbPolyline": 1,
+      "AcDbText": 1
+    },
+    "layers": {
+      "DAY3-CHANGED": 1,
+      "DAY3-POLY": 1,
+      "DAY3-TEXT": 1,
+      "DAY3-WALL": 4
+    },
+    "entities": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          0.0,
+          300.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          300.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "85",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          6000.0,
+          0.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "86",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "87",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbCircle",
+        "layer": "DAY3-CHANGED",
+        "handle": "88",
+        "color": 256,
+        "linetype": "ByLayer",
+        "radius": 650.0
+      },
+      {
+        "type": "AcDbText",
+        "layer": "DAY3-TEXT",
+        "handle": "89",
+        "color": 256,
+        "linetype": "ByLayer",
+        "textstring": "DAY 3 AUTOMATION",
+        "insertionpoint": [
+          700.0,
+          2850.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "closed": true
+      }
+    ]
+  },
+  "deleted": {
+    "document": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_modified.dwg",
+    "entity_count": 6,
+    "types": {
+      "AcDbLine": 4,
+      "AcDbPolyline": 1,
+      "AcDbText": 1
+    },
+    "layers": {
+      "DAY3-POLY": 1,
+      "DAY3-TEXT": 1,
+      "DAY3-WALL": 4
+    },
+    "entities": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          0.0,
+          300.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          300.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "85",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          6000.0,
+          0.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "86",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "87",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbText",
+        "layer": "DAY3-TEXT",
+        "handle": "89",
+        "color": 256,
+        "linetype": "ByLayer",
+        "textstring": "DAY 3 AUTOMATION",
+        "insertionpoint": [
+          700.0,
+          2850.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "closed": true
+      }
+    ]
+  },
+  "reopened": {
+    "document": "C:\\Users\\weila\\Desktop\\CAD-Day3-Automation\\output\\day3_modified.dwg",
+    "entity_count": 6,
+    "types": {
+      "AcDbLine": 4,
+      "AcDbPolyline": 1,
+      "AcDbText": 1
+    },
+    "layers": {
+      "DAY3-POLY": 1,
+      "DAY3-TEXT": 1,
+      "DAY3-WALL": 4
+    },
+    "entities": [
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "84",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          0.0,
+          300.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          300.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "85",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          6000.0,
+          0.0,
+          0.0
+        ],
+        "endpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "86",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 6000.0,
+        "startpoint": [
+          6000.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbLine",
+        "layer": "DAY3-WALL",
+        "handle": "87",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "startpoint": [
+          0.0,
+          4000.0,
+          0.0
+        ],
+        "endpoint": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbText",
+        "layer": "DAY3-TEXT",
+        "handle": "89",
+        "color": 256,
+        "linetype": "ByLayer",
+        "textstring": "DAY 3 AUTOMATION",
+        "insertionpoint": [
+          700.0,
+          2850.0,
+          0.0
+        ]
+      },
+      {
+        "type": "AcDbPolyline",
+        "layer": "DAY3-POLY",
+        "handle": "8A",
+        "color": 256,
+        "linetype": "ByLayer",
+        "length": 4000.0,
+        "closed": true
+      }
+    ]
+  },
+  "screenshots": {
+    "created": false,
+    "before_modify": false,
+    "after_modify": false,
+    "after_delete": false,
+    "reopened": false
+  },
+  "limitations": [
+    "The AutoCAD desktop was automated through COM and AutoLISP because native Windows click control was unavailable.",
+    "Properties screenshots use AutoCAD implied selection, not physical mouse input.",
+    "04_entity_query.png is a rendering of the actual AutoLISP-produced text log, not an AutoCAD window capture."
+  ]
+}

@@ -1,0 +1,8 @@
+Day 3 execution report
+AutoCAD: 26.0s (LMS Tech)
+Created types: {'AcDbCircle': 1, 'AcDbLine': 4, 'AcDbPolyline': 1, 'AcDbText': 1}
+Modified types: {'AcDbCircle': 1, 'AcDbLine': 4, 'AcDbPolyline': 1, 'AcDbText': 1}
+After delete types: {'AcDbLine': 4, 'AcDbPolyline': 1, 'AcDbText': 1}
+Reopened types: {'AcDbLine': 4, 'AcDbPolyline': 1, 'AcDbText': 1}
+LINE Properties selection: [{'type': 'AcDbLine', 'layer': 'DAY3-WALL', 'handle': '84'}]
+Polyline Properties selection: [{'type': 'AcDbPolyline', 'layer': 'DAY3-POLY', 'handle': '8A'}]

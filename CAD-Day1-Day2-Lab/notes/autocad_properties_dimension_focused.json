@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-09-15T23:12:05.785879+12:00",
+  "document": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg",
+  "expected_type": "AcDbRotatedDimension",
+  "expected_layer": "A-DIMS",
+  "expected_handle": "49",
+  "selection_method": "AutoLISP sssetfirst implied selection; not physical mouse input",
+  "pickfirst_selection_after_command": [
+    {
+      "object_name": "AcDbRotatedDimension",
+      "layer": "A-DIMS",
+      "handle": "49"
+    }
+  ],
+  "properties_command": "_.PROPERTIES",
+  "screenshot": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\screenshots\\10_properties_selected_dimension_focused.png",
+  "screenshot_saved": true
+}

@@ -1,0 +1,437 @@
+{
+  "collected_at": "2026-09-15T21:05:45.702383+12:00",
+  "com_progid": "AutoCAD.Application.26",
+  "version": "26.0s (LMS Tech)",
+  "executable": "D:\\360\\autocad\\AutoCAD 2027\\acad.exe",
+  "visible": true,
+  "installed_entries": [
+    {
+      "DisplayName": "AutoCAD 2027 - English",
+      "DisplayVersion": "26.0.60.0",
+      "InstallLocation": "D:\\360\\autocad\\AutoCAD 2027\\",
+      "Publisher": "Autodesk"
+    },
+    {
+      "DisplayName": "AutoCAD Open in Desktop",
+      "DisplayVersion": "1.0.30.0",
+      "InstallLocation": "",
+      "Publisher": "Autodesk"
+    },
+    {
+      "DisplayName": "Autodesk Access",
+      "DisplayVersion": "2.23.0.517",
+      "InstallLocation": "D:\\360\\autocad",
+      "Publisher": "Autodesk, Inc."
+    },
+    {
+      "DisplayName": "Autodesk App Manager",
+      "DisplayVersion": "3.7.0",
+      "InstallLocation": "D:\\360\\autocad\\",
+      "Publisher": "Autodesk"
+    },
+    {
+      "DisplayName": "Autodesk AutoCAD 2027 - English",
+      "DisplayVersion": "26.0.118.0",
+      "InstallLocation": "D:\\360\\autocad",
+      "Publisher": "Autodesk, Inc."
+    },
+    {
+      "DisplayName": "Autodesk AutoCAD 2027.1 Update",
+      "DisplayVersion": "26.0.118.0",
+      "InstallLocation": "D:\\360\\autocad",
+      "Publisher": "Autodesk, Inc."
+    },
+    {
+      "DisplayName": "Autodesk AutoCAD MCP Server",
+      "DisplayVersion": "26.0.460.2523",
+      "InstallLocation": "",
+      "Publisher": "Autodesk"
+    },
+    {
+      "DisplayName": "Autodesk CER",
+      "DisplayVersion": "7.2.5.982",
+      "InstallLocation": "",
+      "Publisher": "Autodesk Inc."
+    },
+    {
+      "DisplayName": "Autodesk Genuine Service",
+      "DisplayVersion": "7.6.1.4",
+      "InstallLocation": "C:\\Program Files\\Autodesk\\Genuine Service\\",
+      "Publisher": "Autodesk"
+    },
+    {
+      "DisplayName": "Autodesk Interoperability Engine Manager",
+      "DisplayVersion": "1.4.0.10",
+      "InstallLocation": "C:\\Program Files\\Common Files\\Autodesk Shared\\Interoperability Engine Manager\\",
+      "Publisher": "Autodesk, Inc."
+    },
+    {
+      "DisplayName": "Autodesk 精选应用",
+      "DisplayVersion": "3.7.0",
+      "InstallLocation": "D:\\360\\autocad\\",
+      "Publisher": "Autodesk"
+    }
+  ],
+  "windows": [
+    {
+      "hwnd": 334734,
+      "pid": 46504,
+      "title": "Autodesk AutoCAD 2027 - TRIAL (NON COMMERCIAL) - [day2_polyline_based.dwg]",
+      "visible": true
+    },
+    {
+      "hwnd": 6491336,
+      "pid": 46504,
+      "title": "AutoCAD Text Window - day2_polyline_based.dwg",
+      "visible": false
+    }
+  ],
+  "experiment_a": {
+    "name": "day2_line_based.dxf",
+    "full_name": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dxf",
+    "units_header": null,
+    "type_counts": {
+      "AcDbArc": 1,
+      "AcDbCircle": 1,
+      "AcDbLine": 15,
+      "AcDbMText": 1,
+      "AcDbRotatedDimension": 2,
+      "AcDbText": 2
+    },
+    "layer_counts": {
+      "A-DIMS": 2,
+      "A-DOOR": 4,
+      "A-GRID": 2,
+      "A-TEXT": 2,
+      "A-WALL": 4,
+      "A-WINDOW": 8
+    },
+    "layers": [
+      {
+        "name": "0",
+        "color": 7
+      },
+      {
+        "name": "A-DIMS",
+        "color": 1
+      },
+      {
+        "name": "A-DOOR",
+        "color": 2
+      },
+      {
+        "name": "A-GRID",
+        "color": 6
+      },
+      {
+        "name": "A-TEXT",
+        "color": 3
+      },
+      {
+        "name": "A-WALL",
+        "color": 7
+      },
+      {
+        "name": "A-WINDOW",
+        "color": 4
+      },
+      {
+        "name": "Defpoints",
+        "color": 7
+      }
+    ],
+    "details": [
+      "Object 001 | Type: AcDbLine | Layer: A-WALL",
+      "Object 002 | Type: AcDbLine | Layer: A-WALL",
+      "Object 003 | Type: AcDbLine | Layer: A-WALL",
+      "Object 004 | Type: AcDbLine | Layer: A-WALL",
+      "Object 005 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 006 | Type: AcDbArc | Layer: A-DOOR",
+      "Object 007 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 008 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 009 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 010 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 011 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 012 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 013 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 014 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 015 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 016 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 017 | Type: AcDbText | Layer: A-TEXT",
+      "Object 018 | Type: AcDbMText | Layer: A-TEXT",
+      "Object 019 | Type: AcDbCircle | Layer: A-GRID",
+      "Object 020 | Type: AcDbText | Layer: A-GRID",
+      "Object 021 | Type: AcDbRotatedDimension | Layer: A-DIMS",
+      "Object 022 | Type: AcDbRotatedDimension | Layer: A-DIMS"
+    ]
+  },
+  "experiment_b": {
+    "name": "day2_polyline_based.dxf",
+    "full_name": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dxf",
+    "units_header": null,
+    "type_counts": {
+      "AcDbArc": 1,
+      "AcDbCircle": 1,
+      "AcDbLine": 11,
+      "AcDbMText": 1,
+      "AcDbPolyline": 1,
+      "AcDbRotatedDimension": 2,
+      "AcDbText": 2
+    },
+    "layer_counts": {
+      "A-DIMS": 2,
+      "A-DOOR": 4,
+      "A-GRID": 2,
+      "A-TEXT": 2,
+      "A-WALL": 1,
+      "A-WINDOW": 8
+    },
+    "layers": [
+      {
+        "name": "0",
+        "color": 7
+      },
+      {
+        "name": "A-DIMS",
+        "color": 1
+      },
+      {
+        "name": "A-DOOR",
+        "color": 2
+      },
+      {
+        "name": "A-GRID",
+        "color": 6
+      },
+      {
+        "name": "A-TEXT",
+        "color": 3
+      },
+      {
+        "name": "A-WALL",
+        "color": 7
+      },
+      {
+        "name": "A-WINDOW",
+        "color": 4
+      },
+      {
+        "name": "Defpoints",
+        "color": 7
+      }
+    ],
+    "details": [
+      "Object 001 | Type: AcDbPolyline | Layer: A-WALL",
+      "Object 002 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 003 | Type: AcDbArc | Layer: A-DOOR",
+      "Object 004 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 005 | Type: AcDbLine | Layer: A-DOOR",
+      "Object 006 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 007 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 008 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 009 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 010 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 011 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 012 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 013 | Type: AcDbLine | Layer: A-WINDOW",
+      "Object 014 | Type: AcDbText | Layer: A-TEXT",
+      "Object 015 | Type: AcDbMText | Layer: A-TEXT",
+      "Object 016 | Type: AcDbCircle | Layer: A-GRID",
+      "Object 017 | Type: AcDbText | Layer: A-GRID",
+      "Object 018 | Type: AcDbRotatedDimension | Layer: A-DIMS",
+      "Object 019 | Type: AcDbRotatedDimension | Layer: A-DIMS"
+    ]
+  },
+  "dwg_save": {
+    "a": {
+      "path": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg",
+      "exists": true,
+      "error": null
+    },
+    "b": {
+      "path": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dwg",
+      "exists": true,
+      "error": null
+    }
+  },
+  "dwg_reopen": [
+    {
+      "path": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg",
+      "opened": true,
+      "entity_count": 22,
+      "error": null
+    },
+    {
+      "path": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dwg",
+      "opened": true,
+      "entity_count": 19,
+      "error": null
+    }
+  ],
+  "dwg_reopen_inventories": {
+    "day2_line_based.dwg": {
+      "name": "day2_line_based.dwg",
+      "full_name": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg",
+      "units_header": null,
+      "type_counts": {
+        "AcDbArc": 1,
+        "AcDbCircle": 1,
+        "AcDbLine": 15,
+        "AcDbMText": 1,
+        "AcDbRotatedDimension": 2,
+        "AcDbText": 2
+      },
+      "layer_counts": {
+        "A-DIMS": 2,
+        "A-DOOR": 4,
+        "A-GRID": 2,
+        "A-TEXT": 2,
+        "A-WALL": 4,
+        "A-WINDOW": 8
+      },
+      "layers": [
+        {
+          "name": "0",
+          "color": 7
+        },
+        {
+          "name": "A-DIMS",
+          "color": 1
+        },
+        {
+          "name": "A-DOOR",
+          "color": 2
+        },
+        {
+          "name": "A-GRID",
+          "color": 6
+        },
+        {
+          "name": "A-TEXT",
+          "color": 3
+        },
+        {
+          "name": "A-WALL",
+          "color": 7
+        },
+        {
+          "name": "A-WINDOW",
+          "color": 4
+        },
+        {
+          "name": "Defpoints",
+          "color": 7
+        }
+      ],
+      "details": [
+        "Object 001 | Type: AcDbLine | Layer: A-WALL",
+        "Object 002 | Type: AcDbLine | Layer: A-WALL",
+        "Object 003 | Type: AcDbLine | Layer: A-WALL",
+        "Object 004 | Type: AcDbLine | Layer: A-WALL",
+        "Object 005 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 006 | Type: AcDbArc | Layer: A-DOOR",
+        "Object 007 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 008 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 009 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 010 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 011 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 012 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 013 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 014 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 015 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 016 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 017 | Type: AcDbText | Layer: A-TEXT",
+        "Object 018 | Type: AcDbMText | Layer: A-TEXT",
+        "Object 019 | Type: AcDbCircle | Layer: A-GRID",
+        "Object 020 | Type: AcDbText | Layer: A-GRID",
+        "Object 021 | Type: AcDbRotatedDimension | Layer: A-DIMS",
+        "Object 022 | Type: AcDbRotatedDimension | Layer: A-DIMS"
+      ]
+    },
+    "day2_polyline_based.dwg": {
+      "name": "day2_polyline_based.dwg",
+      "full_name": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_polyline_based.dwg",
+      "units_header": null,
+      "type_counts": {
+        "AcDbArc": 1,
+        "AcDbCircle": 1,
+        "AcDbLine": 11,
+        "AcDbMText": 1,
+        "AcDbPolyline": 1,
+        "AcDbRotatedDimension": 2,
+        "AcDbText": 2
+      },
+      "layer_counts": {
+        "A-DIMS": 2,
+        "A-DOOR": 4,
+        "A-GRID": 2,
+        "A-TEXT": 2,
+        "A-WALL": 1,
+        "A-WINDOW": 8
+      },
+      "layers": [
+        {
+          "name": "0",
+          "color": 7
+        },
+        {
+          "name": "A-DIMS",
+          "color": 1
+        },
+        {
+          "name": "A-DOOR",
+          "color": 2
+        },
+        {
+          "name": "A-GRID",
+          "color": 6
+        },
+        {
+          "name": "A-TEXT",
+          "color": 3
+        },
+        {
+          "name": "A-WALL",
+          "color": 7
+        },
+        {
+          "name": "A-WINDOW",
+          "color": 4
+        },
+        {
+          "name": "Defpoints",
+          "color": 7
+        }
+      ],
+      "details": [
+        "Object 001 | Type: AcDbPolyline | Layer: A-WALL",
+        "Object 002 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 003 | Type: AcDbArc | Layer: A-DOOR",
+        "Object 004 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 005 | Type: AcDbLine | Layer: A-DOOR",
+        "Object 006 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 007 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 008 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 009 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 010 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 011 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 012 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 013 | Type: AcDbLine | Layer: A-WINDOW",
+        "Object 014 | Type: AcDbText | Layer: A-TEXT",
+        "Object 015 | Type: AcDbMText | Layer: A-TEXT",
+        "Object 016 | Type: AcDbCircle | Layer: A-GRID",
+        "Object 017 | Type: AcDbText | Layer: A-GRID",
+        "Object 018 | Type: AcDbRotatedDimension | Layer: A-DIMS",
+        "Object 019 | Type: AcDbRotatedDimension | Layer: A-DIMS"
+      ]
+    }
+  },
+  "screenshots": {
+    "line_overview": true,
+    "polyline_overview": true
+  },
+  "limitations": [
+    "Native GUI Properties palette, Layers palette, and Paper Space tab were not clicked because native window-control APIs were unavailable in this session.",
+    "Entity types and layers were verified through AutoCAD COM ModelSpace and Layer collections."
+  ]
+}

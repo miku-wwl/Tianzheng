@@ -1,0 +1,31 @@
+CAD Day 1 + Day 2 lab — installation status
+============================================
+
+Machine check
+-------------
+OS: Windows 11 Home Chinese Edition, version 10.0.26200, 64-bit
+Python: D:\anaconda3\python.exe
+pip: D:\anaconda3\Scripts\pip.exe
+ezdxf: installed successfully, version 1.4.4
+AutoCAD desktop: not installed; no acad.exe process was running
+
+Official Autodesk path
+----------------------
+Opened: https://www.autodesk.com/free-trials
+Then opened the official AutoCAD trial intake and selected the Autodesk local site.
+Observed state: the official Autodesk AutoCAD trial flow was selected with Home Use.
+Step 2 confirmed AutoCAD, and Step 3 shows version 2027, Windows 64-bit, and a 15-day trial.
+The user-provided student email was accepted and the flow reached Step 4 of 4.
+
+Blocked action
+--------------
+Step 4 was completed with the user-provided contact data and the user-authorized terms/privacy
+agreement. Autodesk then advanced to Phone verification and requests a security code by voice
+or SMS. MFA is a user-only step: no security code was requested, entered, or handled by the
+agent. No payment, installer run, or administrator prompt was performed.
+
+Consequence
+-----------
+AutoCAD desktop inspection, AutoCAD screenshots, Save As DWG, reopen verification, and
+Model Space/Paper Space GUI inspection are NOT VERIFIED in this run.
+The file-based DXF, entity-inventory, and rendered preview work is verified separately.

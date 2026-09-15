@@ -1,0 +1,10 @@
+collected_at: 2026-09-15T23:11:41.903509+12:00
+document: C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\output\day2_line_based.dwg
+expected_type: AcDbArc
+expected_layer: A-DOOR
+expected_handle: 3A
+selection_method: AutoLISP sssetfirst implied selection; not physical mouse input
+pickfirst_selection_after_command: [{'object_name': 'AcDbArc', 'layer': 'A-DOOR', 'handle': '3A'}]
+properties_command: _.PROPERTIES
+screenshot: C:\Users\weila\Desktop\CAD-Day1-Day2-Lab\screenshots\10_properties_selected_arc_focused.png
+screenshot_saved: True

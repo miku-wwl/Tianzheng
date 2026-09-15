@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-09-15T23:10:25.777800+12:00",
+  "document": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\output\\day2_line_based.dwg",
+  "expected_type": "AcDbLine",
+  "expected_layer": "A-WALL",
+  "expected_handle": "35",
+  "selection_method": "AutoLISP sssetfirst implied selection; not physical mouse input",
+  "pickfirst_selection_after_command": [
+    {
+      "object_name": "AcDbLine",
+      "layer": "A-WALL",
+      "handle": "35"
+    }
+  ],
+  "properties_command": "_.PROPERTIES",
+  "screenshot": "C:\\Users\\weila\\Desktop\\CAD-Day1-Day2-Lab\\screenshots\\10_properties_selected_line_focused.png",
+  "screenshot_saved": true
+}
